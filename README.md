@@ -1,4 +1,4 @@
-# multiline_text_replace
+# multiline-text-replace
 Simple Go tool for replacing text with multiple lines in files.
 
 For usage description see help:
