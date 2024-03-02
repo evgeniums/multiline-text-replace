@@ -16,7 +16,7 @@ Application Options:
   /d, /dir:                Target directory containing files to replace text in. Either file or dir must be specified.
   /e, /ext:                Extensions of files in target directory to replace text in, can be multiple separated with
                            comma, e.g. .txt,.csv
-  /r, /recursive           Process files recursivley in the target directory.
+  /r, /recursive           Process files recursively in the target directory.
 
 Help Options:
   /?                       Show this help message
