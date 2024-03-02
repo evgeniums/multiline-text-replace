@@ -10,8 +10,8 @@ import (
 )
 
 type Options struct {
-	PatternFile string `short:"p" long:"pattern-file" description:"File that contents pattern text to search." required:"true"`
-	SubstFile   string `short:"s" long:"substitution-file" description:"File that contents substitution text to replace with." required:"true"`
+	PatternFile string `short:"p" long:"pattern-file" description:"File with pattern text to search." required:"true"`
+	SubstFile   string `short:"s" long:"substitution-file" description:"File with substitution text to replace with." required:"true"`
 	TargetFile  string `short:"f" long:"file" description:"Target file to replace text in. Either file or dir must be specified."`
 	TargetDir   string `short:"d" long:"dir" description:"Target directory containing files to replace text in. Either file or dir must be specified."`
 	TargeExt    string `short:"e" long:"ext" description:"Extensions of files in target directory to replace text in, can be multiple separated with comms, e.g. .txt,.csv"`
