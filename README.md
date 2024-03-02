@@ -10,8 +10,8 @@ Usage:
   multiline-text-replace.exe [OPTIONS]
 
 Application Options:
-  /p, /pattern-file:       File that contents pattern text to search.
-  /s, /substitution-file:  File that contents substitution text to replace with.
+  /p, /pattern-file:       File with pattern text to search.
+  /s, /substitution-file:  File with substitution text to replace with.
   /f, /file:               Target file to replace text in. Either file or dir must be specified.
   /d, /dir:                Target directory containing files to replace text in. Either file or dir must be specified.
   /e, /ext:                Extensions of files in target directory to replace text in, can be multiple separated with
