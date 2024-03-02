@@ -14,7 +14,7 @@ type Options struct {
 	SubstFile   string `short:"s" long:"substitution-file" description:"File with substitution text to replace with." required:"true"`
 	TargetFile  string `short:"f" long:"file" description:"Target file to replace text in. Either file or dir must be specified."`
 	TargetDir   string `short:"d" long:"dir" description:"Target directory containing files to replace text in. Either file or dir must be specified."`
-	TargeExt    string `short:"e" long:"ext" description:"Extensions of files in target directory to replace text in, can be multiple separated with comms, e.g. .txt,.csv"`
+	TargeExt    string `short:"e" long:"ext" description:"Extensions of files in target directory to replace text in, can be multiple separated with comma, e.g. .txt,.csv"`
 	Recursive   bool   `short:"r" long:"recursive" description:"Process files recursivley in the target directory."`
 }
 
